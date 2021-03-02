@@ -37,6 +37,8 @@ It should generate a `stand_alone_cdem_firmware_vx_x_x.tar.gz` file that can be 
 
 ## Flashing a Stand Alone Release
 
+Make sure no other application is using the device `/dev/ttyUSB0` (like for example the logger daemon).
+
 Download the latest stand alone release package from [Connected Digital Energy Meter - Firmware Releases](https://github.com/connected-digital-energy-meter/cdem_firmware/releases). Look for a release that includes a `stand_alone_cdem_firmware_vx_x_x.tar.gz` package.
 
 Just place the file inside this repository dir as is. **Just make sure that there is only a single stand alone release file in this directory.** Don't rename the file and extract it yourself. Its all automatically done for you.
